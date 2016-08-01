@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Олег Исаев](https://up.htmlacademy.ru/htmlcss/14/user/213152).
-* Наставник: [Юлия Антонова] (https://up.htmlacademy.ru/htmlcss/14/user/39082).
+* Наставник: [Юлия Сэнсэй Антонова] (https://up.htmlacademy.ru/htmlcss/14/user/39082).
 
 ---
 

@@ -6,51 +6,132 @@
   </head>
   <body>
     <header class="main-header">
-	  <nav class="main-navigation">
-	    <ul>
-        <li><a href="#">Информация</a></li>
-		    <li><a href="#">Фото и видео</a></li>
-		    <li><a href="#">Карта штата</a></li>
-		    <li><a href="#">Гостиницы</a></li>
-      </ul>
-	  </nav>
-	  <div class="index-logo">
-	    <img src=""img/index-logo.png" width="?" height="?" alt="City of Sedona">
-	  </div>
-	</header
-	<main class="container">
-	  <div class="container-filter"
-	    <section class="filer-infrastructure">
-		  <b class="filer-name">Инфраструктура:</b>
-		  <ul>
-		    <li><label><input type="checkbox" checked>Бассейн</label></li>
-			  <li><label><input type="checkbox">Парковка</label></li>
-			  <li><label><input type="checkbox">Wi-Fi</label></li>
-		  </ul>
-		</section>
-		<section class="filer-property_type">
-		  <b class="filer-name">Тип Жилья:</b>
-		  <ul>
-		    <li><label><input type="checkbox" checked>Гостиница</label></li>
-			<li><label><input type="checkbox">Мотель</label></li>
-			<li><label><input type="checkbox">Апартаменты</label></li>
-		  </ul>
-		</section>
-		<section class="filter-cost_in_day">
-		  <b class="filer-name">Стоимость в сутки(р):</b>
-		  <br>
-		  <input class="min-price" type="text" value="от 0">
-		  <input class="max-price" type="text" value="до 3000">
-
-
-		</section>
-
-
-
-	  </div>
-
-
-
-	</main>
+      <div class="container">
+        <div class="index-logo">
+	        <img src="img/index-logo.png" alt="City Sedona">
+	      </div>
+    	  <nav class="main-navigation">
+    	    <ul>
+            <li><a href="#">Информация</a></li>
+    		    <li><a href="#">Фото и видео</a></li>
+    		    <li><a href="#">Карта штата</a></li>
+    		    <li><a href="#">Гостиницы</a></li>
+          </ul>
+  	    </nav>
+      </div>
+	  </header>
+	  <main class="container">
+  	  <div class="container-filter">
+  	    <section class="filer-infrastructure">
+  		    <h3 class="filer-name">Инфраструктура:</h3>
+  		    <ul>
+  		      <li><label><input type="checkbox">Бассейн</label></li>
+  			    <li><label><input type="checkbox">Парковка</label></li>
+  			    <li><label><input type="checkbox">Wi-Fi</label></li>
+  		    </ul>
+  		  </section>
+        <section class="filer-property-type">
+    		  <h3 class="filer-name">Тип Жилья:</h3>
+    		  <ul>
+    		    <li><label><input type="checkbox">Гостиница</label></li>
+    			  <li><label><input type="checkbox">Мотель</label></li>
+      			<li><label><input type="checkbox">Апартаменты</label></li>
+    		  </ul>
+    		</section>
+    		<section class="filter-cost-in-day">
+          <h3 class="filer-name">Стоимость в сутки(р):</h3>
+    		  <br>
+    		  <input class="min-price" type="text" value="от 0">
+    		  <input class="max-price" type="text" value="до 3000">
+          <br>
+          <input type="range" min="0" max="3000">
+          <br>
+          <button type="submit">Показать</button>
+        </section>
+      </div>
+      <div class="search-results">
+        <div>
+          <b>Найдено:</b>
+        </div>
+        <div class="sorting">
+          <nav class="sorting-navigation">
+            <ul>
+              <li><a href="#">По цене</a></li>
+              <li><a href="#">По типу</a></li>
+              <li><a href="#">По рейтингу</a></li>
+            </ul>
+          </nav>
+            <div class="min-max"></div>
+            <div class="min-max"></div>
+        </div>
+      </div>
+      <div class="results">
+        <section class="results-1">
+          <div class="results-item">
+            <a href="#"><h2>Amara resort & spa</h2></a>
+            <img src="img/photo-1.png" alt="Amara resort">
+            <p>Гостиница от 3500 р.</p>
+            <button class="blue" type="submit"><b>Подробнее</b></button>
+            <button class="brown" type="submit"><b>Забронировать</b></button>
+          </div>
+          <div class="rating">
+            <div class="rating-star">
+              <div>?</div>
+            </div>
+            <div class="rating-results">
+              <p>Рейтинг:8,5</p>
+            </div>
+          </div>
+        </section>
+        <section class="results-2">
+          <div class="results-item">
+            <a href="#"><h2>Desert quail inn</h2></a>
+            <img src="img/photo-2.png" alt="Desert quail inn">
+            <p>Мотель от 2000 р.</p>
+            <button class="blue" type="submit"><b>Подробнее</b></button>
+            <button class="brown" type="submit"><b>Забронировать</b></button>
+          </div>
+          <div class="rating">
+            <div class="rating-star">
+              <div>?</div>
+            </div>
+            <div class="rating-results">
+              <p>Рейтинг:8,9</p>
+            </div>
+          </div>
+        </section>
+        <section class="results-3">
+          <div class="results-item">
+            <a href="#"><h2>Vilas at poco diablo</h2></a>
+            <img src="img/photo-3.png" alt="Vilas at poco diablo">
+            <p>Апартаменты от 4000 р.</p>
+            <button class="blue" type="submit"><b>Подробнее</b></button>
+            <button class="brown" type="submit"><b>Забронировать</b></button>
+          </div>
+          <div class="rating">
+            <div class="rating-star">
+              <div>?</div>
+            </div>
+            <div class="rating-results">
+              <p>Рейтинг:9,2</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-hashtag">#visitsedona</div>
+        <div class="footer-social">
+          <a class="social-btn social-btn-tw" href="#">Тtwitter</a>
+          <a class="social-btn social-btn-fb" href="#">facebook</a>
+          <a class="social-btn social-btn-ytb" href="#">youtube</a>
+        </div>
+        <div class="footer-copyright">
+          <p>website by</p>
+          <a class="btn" href="https://htmlacademy.ru"><img src="img/copyright-logo.png"  alt="htmlacademy.ru"></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

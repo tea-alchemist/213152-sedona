@@ -49,26 +49,34 @@ h2 {
   width: 1200px;
 }
 
+.main-navigation ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  width: 1200px;
+}
+
 .main-navigation li {
   outline: 1px solid black;
   display: inline-block;
   font-size: 16px;
+  width: 20%;
 }
 
 .main-navigation li:nth-child(1) {
-  margin-left: 30px;
+  margin-left: 72px;
 }
 
 .main-navigation li:nth-child(2) {
-  margin-left: 160px;
+  margin-left: ;
 }
 
 .main-navigation li:nth-child(3) {
-  margin-left: 388px;
+  margin-left: 649px;
 }
 
 .main-navigation li:nth-child(4) {
-  margin-left: 160px;
+  margin-left: ;
 }
 
 .main {
@@ -264,11 +272,6 @@ hotels.html
   list-style: none;
 }
 
-.filters::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .sorting {
   content: "";
@@ -332,4 +335,14 @@ hotels.html
   width: 850;
   margin-left: 48px;
 
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
 }

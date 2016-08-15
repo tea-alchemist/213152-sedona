@@ -23,7 +23,6 @@ h2 {
 
 
 .wrapper {
-  outline: 1px solid black;
   background-color: #ffffff;
   width: 1200px;
   margin-left: auto;
@@ -31,12 +30,10 @@ h2 {
 }
 
 .main-header {
-  outline: 1px solid black;
   font-size: 0px;
 }
 
 .index-logo {
-  outline: 1px solid black;
   position: absolute;
   width: 138px;
   left: 50%;
@@ -44,7 +41,6 @@ h2 {
 }
 
 .main-navigation {
-  outline: 1px solid black;
   min-height: 56px;
   width: 1200px;
 }
@@ -57,26 +53,22 @@ h2 {
 }
 
 .main-navigation li {
-  outline: 1px solid black;
   display: inline-block;
   font-size: 16px;
   width: 20%;
+  outline: 1px solid black;
+  text-align: center;
+  margin-top: 12px;
 }
+
 
 .main-navigation li:nth-child(1) {
   margin-left: 72px;
 }
 
-.main-navigation li:nth-child(2) {
-  margin-left: ;
-}
 
 .main-navigation li:nth-child(3) {
-  margin-left: 649px;
-}
-
-.main-navigation li:nth-child(4) {
-  margin-left: ;
+  margin-left: 96px;
 }
 
 .main {
@@ -148,12 +140,6 @@ h2 {
   float: left;
 }
 
-.advantages::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .advantages-item {
   outline: 1px solid black;
   float: left;
@@ -166,15 +152,12 @@ h2 {
 .search {
   outline: 1px solid black;
   height: 230px;
-
-
 }
 
 .search-text {
   outline: 1px solid black;
   margin-top: 0px;
   margin-top: 60px;
-
 }
 
 .search-text h2 {
@@ -272,11 +255,8 @@ hotels.html
   list-style: none;
 }
 
-
 .sorting {
-  content: "";
-  display: table;
-  clear: both;
+  outline: 1px solid black;
 }
 
 .results-amount, .sorting-navigation {
@@ -287,9 +267,8 @@ hotels.html
 
 .min-max {
   float: right;
-  min-height: 30px;
-  width: 94px;
-  margin-top: 30px;
+  width: 109px;
+  margin-top: 34px;
   background-color: yellow;
   outline: 1px solid black;
 }
@@ -298,24 +277,25 @@ hotels.html
   outline: 1px solid black;
   width: 11px;
   height: 10px;
+  display: inline-block;
 }
 
 .max {
   outline: 1px solid black;
   width: 11px;
   height: 10px;
+  display: inline-block;
+  margin-left: 9px;
 }
 
-
-
-.sorting-navigation h3, ul, li {
+.sorting-navigation h3, .sort-list ul, .sort-list li {
   display: inline-block;
   outline: 1px solid black;
 }
 
 .sorting-navigation li {
   font-size: 16px;
-  margin-left: 33px;
+  margin-left: 0px;
 
 }
 
@@ -324,7 +304,6 @@ hotels.html
   margin: 0px;
   padding: 0px;
   list-style: none;
-  margin-left: 3px;
 }
 
 .results-amount {
@@ -332,8 +311,8 @@ hotels.html
 }
 
 .sorting-navigation {
-  width: 850;
   margin-left: 48px;
+  width: 500px;
 
 }
 

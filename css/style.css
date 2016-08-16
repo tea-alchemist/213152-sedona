@@ -27,6 +27,7 @@ h2 {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .main-header {
@@ -110,6 +111,10 @@ h2 {
   margin-right: auto;
 }
 
+.reason-1 .reason-image {
+  float: right;
+}
+
 .reason-text {
   outline: 1px solid black;
   float: left;
@@ -117,10 +122,6 @@ h2 {
   min-height: 256px;
   text-align: center;
   background-color: #81b3d2;
-}
-
-.reason {
-  outline: 1px solid black;
 }
 
 .features-item {
@@ -131,15 +132,18 @@ h2 {
   text-align: center;
 }
 
-.reason-2 img {
+.reason-2 .reason-image {
   float: left;
+}
+
+.reason-2 .reason-text {
+  float: right;
 }
 
 .advantages-item {
   outline: 1px solid black;
   float: left;
   width: 400px;
-  min-height: 256px;
   text-align: center;
   background-color: #eeeeee;
 }
@@ -192,29 +196,38 @@ h2 {
 
 .main-footer {
   outline: 1px solid black;
-  min-height: 120px;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-hashtag {
   outline: 1px solid black;
   float: left;
-  margin-left: 130px;
-  margin-top: 50px;
+  width: 400px;
+  text-align: center;
 }
 
 .footer-social {
   outline: 1px solid black;
   width: 160px;
   float: left;
-  margin-left: 315px;
-  margin-top: 35px;
+  width: 400px;
+  text-align: center;
 }
 
 .footer-copyright {
   outline: 1px solid black;
-  float: right;
-  margin-right: 103px;
-  margin-top: 40px;
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+.footer-copyright a img {
+  outline: 1px solid black;
+  margin: 0px;
+  padding: 0px;
 }
 
 .by {

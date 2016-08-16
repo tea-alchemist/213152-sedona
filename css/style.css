@@ -114,10 +114,9 @@ h2 {
   outline: 1px solid black;
   float: left;
   width: 400px;
-  min-height: 256;
+  min-height: 256px;
   text-align: center;
   background-color: #81b3d2;
-
 }
 
 .reason {
@@ -136,15 +135,11 @@ h2 {
   float: left;
 }
 
-.reason-2 .reason-text {
-  float: left;
-}
-
 .advantages-item {
   outline: 1px solid black;
   float: left;
   width: 400px;
-  min-height: 256;
+  min-height: 256px;
   text-align: center;
   background-color: #eeeeee;
 }
@@ -157,7 +152,7 @@ h2 {
 .search-text {
   outline: 1px solid black;
   margin-top: 0px;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 .search-text h2 {
@@ -257,12 +252,12 @@ hotels.html
 
 .sorting {
   outline: 1px solid black;
+  min-height: 85px;
 }
 
 .results-amount, .sorting-navigation {
   float: left;
   outline: 1px solid black;
-  min-height: 85px;
 }
 
 .min-max {
@@ -288,14 +283,15 @@ hotels.html
   margin-left: 9px;
 }
 
-.sorting-navigation h3, .sort-list ul, .sort-list li {
+.sorting-navigation h3, .sort-list, .sort-list li {
   display: inline-block;
   outline: 1px solid black;
 }
 
 .sorting-navigation li {
   font-size: 16px;
-  margin-left: 0px;
+  margin-left: 33px;
+  margin-top: 30px;
 
 }
 
@@ -304,10 +300,12 @@ hotels.html
   margin: 0px;
   padding: 0px;
   list-style: none;
+  margin-left: 3px;
 }
 
 .results-amount {
   margin-left: 72px;
+  margin-top: 30px;
 }
 
 .sorting-navigation {
@@ -324,4 +322,91 @@ hotels.html
 
 .clearfix::after {
   clear: both;
+}
+
+.results-item {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 150px;
+}
+
+.results-item img {
+  vertical-align: middle;
+  margin-left: 72px;
+
+}
+
+.results-item img {
+  float: left;
+  outline: 1px solid black;
+  margin-top: 30px;
+}
+
+.hotel-info {
+  float: left;
+  outline: 1px solid black;
+  margin-top: 25px;
+  margin-left: 30px;
+  min-height: 95px;
+}
+
+.hotel-info h2 {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.hotel-info h2 a {
+  text-decoration: none;
+
+}
+
+.hotel-info span {
+  outline: 1px solid black;
+  margin-top: 15px;
+}
+
+.brown {
+  outline: 1px solid black;
+  text-decoration: none;
+  color: white;
+  background-color: #766357;
+}
+
+.blue {
+  outline: 1px solid black;
+  background-color: #81b3d2;
+  text-decoration: none;
+  color: white;
+}
+
+.rating {
+  outline: 1px solid black;
+  float: right;
+  min-height: 150px;
+}
+
+.rating-star {
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 73px;
+  min-height: 17px;
+}
+
+.star {
+  outline: 1px solid black;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-left: 3px;
+}
+
+.rating-results {
+  outline: 1px solid black;
+  margin-right: 73px;
+  margin-top: 47px;
+  text-align: center;
+  background-color: #f2f2f2;
+  width: 110px;
+  min-height: 27px;
 }

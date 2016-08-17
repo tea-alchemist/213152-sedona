@@ -298,6 +298,10 @@ h2 {
   position: relative;
 }
 
+.check-date {
+  display: block;
+}
+
 .calendar {
   outline: 1px solid black;
   position: absolute;
@@ -310,18 +314,6 @@ h2 {
   width: 346px;
 }
 
-.departure-form {
-  outline: 1px solid black;
-  padding-top: 41px;
-
-}
-
-.years-old {
-  outline: 1px solid black;
-  padding-top: 41px;
-  padding-bottom: 60px;
-}
-
 .min-max-people {
   width: 114px;
 }
@@ -329,9 +321,9 @@ h2 {
 .find {
   background-color: #81b3d2;
   color: white;
-  width: 458px;
+  width: 100%;
   min-height: 58px;
-  margin-bottom: 55px;
+  margin-top: 24px;
 
 
 }

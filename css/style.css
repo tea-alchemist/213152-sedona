@@ -3,6 +3,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
+  margin: 0px;
   color: #333333;
   background-color: #f2f2f2;
 }
@@ -21,14 +22,12 @@ h2 {
   color: #000000
 }
 
-
 .wrapper {
   position: relative;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
-
 }
 
 .main-header {
@@ -62,7 +61,6 @@ h2 {
   text-align: center;
   padding-top: 17px;
   padding-bottom: 18px;
-
 }
 
 .main-navigation li:nth-child(1) {
@@ -76,7 +74,6 @@ h2 {
 
 .main {
   outline: 1px solid black;
-
 }
 
 .promo {
@@ -88,7 +85,6 @@ h2 {
 
 .promo-text {
   padding-top: 76px;
-
 }
 
 .tagline {
@@ -103,12 +99,15 @@ h2 {
   outline: 1px solid black;
   margin: 0;
   font-size: 21px;
-  width: 365px;
+  width: 490px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 145px;
+  padding-top: 139px;
   padding-bottom: 28px;
-
+  text-align: center;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .tagline p {
@@ -171,7 +170,6 @@ h2 {
   outline: 1px solid black;
   margin: 0px;
   margin-top: 161px;
-
 }
 
 .features-item p {
@@ -182,7 +180,6 @@ h2 {
   margin-right: auto;
   padding-top: 23px;
   padding-bottom: 83px;
-
 }
 
 .reason-2 .reason-image {
@@ -209,12 +206,6 @@ h2 {
   margin-right: auto;
   padding-top: 47px;
   padding-bottom: 23px;
-
-}
-
-.advantages-item span {
-  outline: 1px solid black;
-
 }
 
 .advantages-item p {
@@ -234,7 +225,7 @@ h2 {
 
 .search-text h2 {
   outline: 1px solid black;
-  width: 150px;
+  width: 200px;
   margin: 0px;
   padding-top: 56px;
   padding-bottom: 30px;
@@ -328,7 +319,6 @@ h2 {
   outline: 1px solid black;
   float: left;
   width: 50%
-
 }
 
 .children {
@@ -347,8 +337,6 @@ h2 {
   width: 100%;
   min-height: 58px;
   margin-top: 24px;
-
-
 }
 
 .main-footer {
@@ -385,7 +373,6 @@ h2 {
   display: inline-block;
   vertical-align: middle;
   min-height: 48px;
-
 }
 
 .footer-copyright {
@@ -412,8 +399,6 @@ h2 {
   vertical-align: middle;
   font-size: 14px;
   line-height: 26px;
-  outline: 1px solid black;
-
 }
 
 
@@ -456,7 +441,6 @@ h2 {
 
 .range-controls {
   outline: 1px solid black;
-
 }
 
 .sorting {
@@ -488,7 +472,6 @@ h2 {
   padding: 0;
   padding-right: 3px;
   margin-left: 49px;
-
 }
 
 .sort-list {
@@ -550,18 +533,19 @@ h2 {
 }
 
 .results-item img {
+  outline: 1px solid black;
   float: left;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .hotel-info {
+  outline: 1px solid black;
   float: left;
   margin-left: 30px;
   padding-top: 25px;
-  padding-bottom: 35px;
+  padding-bottom: 30px;
   font-size: 0px;
-
 }
 
 .hotel-info h2 {
@@ -572,10 +556,10 @@ h2 {
   font-size: 21px;
   text-transform: uppercase;
   font-weight: bold;
-
 }
 
 .hotel-info a {
+  outline: 1px solid black;
   text-decoration: none;
 }
 
@@ -599,10 +583,6 @@ h2 {
   text-transform: uppercase;
 }
 
-.info-btn {
-
-}
-
 .brown {
   display: inline-block;
   vertical-align: top;
@@ -612,7 +592,6 @@ h2 {
   color: white;
   background-color: #766357;
   font-size: 14px;
-
 }
 
 .blue {
@@ -630,23 +609,22 @@ h2 {
   float: right;
   width: 100px;
   padding-top: 29px;
-
 }
 
 .rating-star {
   outline: 1px solid black;
-  font-size: 0px;
   text-align: right;
-
+  line-height: 0px;
+  font-size: 0px;
 }
 
 .star {
   outline: 1px solid black;
   display: inline-block;
   margin-left: 7px;
-  min-height: 17px;
+  height: 17px;
   width: 17px;
-  vertical-align: top;
+  background-color: blue;
 }
 
 .rating-results {
@@ -654,6 +632,7 @@ h2 {
   padding: 0px;
   text-align: right;
   padding-top: 47px;
+  padding-bottom: 30px;
 }
 
 .rating-results p {

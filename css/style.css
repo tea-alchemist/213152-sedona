@@ -4,6 +4,7 @@ body {
   line-height: 21px;
   font-weight: normal;
   margin: 0px;
+  text-transform: uppercase;
   color: #333333;
   background-color: #f2f2f2;
 }
@@ -41,16 +42,10 @@ h2 {
   margin-left: -69px;
 }
 
-.main-navigation {
-  outline: 1px solid black;
-  width: 1200px;
-}
-
 .main-navigation ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
-  width: 1200px;
 }
 
 .main-navigation li {
@@ -58,7 +53,6 @@ h2 {
   font-size: 16px;
   width: 20%;
   outline: 1px solid black;
-  text-align: center;
   padding-top: 17px;
   padding-bottom: 18px;
 }
@@ -70,6 +64,11 @@ h2 {
 
 .main-navigation li:nth-child(3) {
   margin-left: 96px;
+  text-align: right;
+}
+
+.main-navigation li:nth-child(4) {
+  text-align: right;
 }
 
 .main {
@@ -80,19 +79,17 @@ h2 {
   outline: 1px solid black;
   background-color: blue;
   height: 512px;
-  text-align: center;
-}
-
-.promo-text {
   padding-top: 76px;
+  text-align: center;
 }
 
 .tagline {
   outline: 1px solid black;
-  width: 490px;
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 139px;
+  padding-bottom:50px;
 }
 
 .tagline h1 {
@@ -102,22 +99,17 @@ h2 {
   width: 490px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 139px;
-  padding-bottom: 28px;
+  margin-bottom: 28px;
   text-align: center;
   line-height: 26px;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 .tagline p {
   outline: 1px solid black;
-  width: 490px;
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-bottom:50px;
   line-height: 26px;
 }
 
@@ -138,7 +130,7 @@ h2 {
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  max-width: 150px;
   padding: 0px;
   padding-top: 54px;
   padding-bottom: 23px;
@@ -150,11 +142,8 @@ h2 {
 
 .reason-text p {
   outline: 1px solid black;
-  width: 220px;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
+  max-width: 300px;
+  margin: 0 auto;
   padding-top: 21px;
   padding-bottom: 52px;
 }
@@ -163,97 +152,114 @@ h2 {
   outline: 1px solid black;
   float: left;
   width: 400px;
+  min-height: 140px;
   text-align: center;
+  padding-top: 161px;
+  padding-bottom: 83px;
+
 }
 
 .features-item h3 {
   outline: 1px solid black;
   margin: 0px;
-  margin-top: 161px;
 }
 
 .features-item p {
   outline: 1px solid black;
-  width: 255px;
+  width: 290px;
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 23px;
-  padding-bottom: 83px;
+  margin-top: 23px;
 }
 
 .reason-2 .reason-image {
   float: left;
+  width: 800px;
+  height: 256px;
 }
 
 .reason-2 .reason-text {
   float: right;
 }
 
+..advantages {
+  outline: 1px solid black;
+
+}
+
 .advantages-item {
   outline: 1px solid black;
   float: left;
   width: 400px;
+  min-height: 150px;
   text-align: center;
+  padding-top: 47px;
+  padding-bottom: 60px;
   background-color: #eeeeee;
 }
 
 .advantages-item h3 {
   outline: 1px solid black;
-  width: 100px;
+  max-width: 145px;
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 47px;
-  padding-bottom: 23px;
+  margin-bottom: 23px;
+  font-size: 21px;
 }
 
 .advantages-item p {
   outline: 1px solid black;
   margin: 0px;
-  width: 220px;
+  max-width: 280px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 21px;
-  padding-bottom: 60px;
+  margin-top: 21px;
+  letter-spacing: 0.5px;
 }
 
 .search {
   outline: 1px solid black;
   position: relative;
+  padding-top: 56px;
+  padding-bottom: 133px;
 }
 
 .search-text h2 {
   outline: 1px solid black;
-  width: 200px;
+  width: 500px;
   margin: 0px;
-  padding-top: 56px;
-  padding-bottom: 30px;
-  line-height: 24px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+  line-height: 24px;
 }
 
 .search-text p {
   outline: 1px solid black;
-  width: 350px;
+  width: 500px;
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   line-height: 24px;
-  padding-bottom: 133px;
+  font-size: 14px;
 }
 
 .search-hotel {
   outline: 1px solid black;
   position: absolute;
+  width: 568px;
   left: 50%;
-  margin-left: -282px;
+  margin-left: -284px;
   bottom: 0px;
 }
 
 .search-btn {
-  width: 565px;
+  width: 100%;
   min-height: 85px;
   background-color: #766357;
   color: white;
@@ -341,11 +347,11 @@ h2 {
 
 .main-footer {
   outline: 1px solid black;
-  bottom: 0;
 }
 
 .index-footer {
   position: absolute;
+  bottom: 0;
 }
 
 .footer-hashtag {
@@ -366,13 +372,17 @@ h2 {
   text-align: center;
   padding-top: 36px;
   padding-bottom: 36px;
+  font-size: 0px;
 }
 
 .social-btn {
   outline: 1px solid black;
   display: inline-block;
   vertical-align: middle;
-  min-height: 48px;
+  width: 46px;
+  height: 48px;
+  margin-left: 6px;
+  background-color: blue;
 }
 
 .footer-copyright {
@@ -404,8 +414,8 @@ h2 {
 
 .filters {
   outline: 1px solid red;
-  margin-left: 72px;
-  margin-right: 72px;
+  padding-left: 72px;
+  padding-right: 72px;
   padding-top: 27px;
   padding-bottom: 32px;
 }
@@ -445,32 +455,30 @@ h2 {
 
 .sorting {
   outline: 1px solid black;
-  margin-left: 72px;
-  margin-right: 72px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  line-height: 26px;
 }
 
 .results-amount {
   outline: 1px solid black;
   float: left;
-  margin: 0px;
-  padding: 0px;
-  line-height: 26px;
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 3px;
 }
 
 
 .sorting-navigation {
   float: left;
   outline: 1px solid black;
-  line-height: 18px;
 }
 
 .sorting-navigation h3 {
   display: inline-block;
   margin: 0;
-  padding: 0;
-  padding-right: 3px;
   margin-left: 49px;
 }
 
@@ -500,7 +508,6 @@ h2 {
 
 .min {
   outline: 1px solid black;
-  padding: 0;
   width: 11px;
   height: 10px;
   display: inline-block;
@@ -508,7 +515,6 @@ h2 {
 
 .max {
   outline: 1px solid black;
-  padding: 0;
   width: 11px;
   height: 10px;
   display: inline-block;
@@ -528,8 +534,8 @@ h2 {
 .results-item {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
-  margin-left: 72px;
-  margin-right: 72px;
+  padding-left: 72px;
+  padding-right: 72px;
 }
 
 .results-item img {
@@ -542,6 +548,7 @@ h2 {
 .hotel-info {
   outline: 1px solid black;
   float: left;
+  max-width: 750px;
   margin-left: 30px;
   padding-top: 25px;
   padding-bottom: 30px;
@@ -568,26 +575,27 @@ h2 {
   vertical-align: top;
   padding-top: 7px;
   padding-bottom: 14px;
-  width: 106px;
+  width: 110px;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 .cost {
   display: inline-block;
   vertical-align: top;
+  margin-left: 6px;
   padding-top: 7px;
   padding-bottom: 14px;
   width: 142px;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 .brown {
   display: inline-block;
   vertical-align: top;
+  text-align: center;
+  width: 142px;
   margin-left: 6px;
-  padding: 3px 16px;
+  padding: 3px 0px;
   text-decoration: none;
   color: white;
   background-color: #766357;
@@ -597,7 +605,9 @@ h2 {
 .blue {
   display: inline-block;
   vertical-align: top;
-  padding: 3px 16px;
+  text-align: center;
+  width: 110px;
+  padding: 3px 0;
   background-color: #81b3d2;
   text-decoration: none;
   color: white;
@@ -607,7 +617,7 @@ h2 {
 .rating {
   outline: 1px solid black;
   float: right;
-  width: 100px;
+  width: 110px;
   padding-top: 29px;
 }
 

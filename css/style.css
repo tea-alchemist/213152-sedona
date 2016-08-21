@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
-  margin: 0px;
+  margin: 0;
   text-transform: uppercase;
   color: #333333;
   background-color: #f2f2f2;
@@ -32,7 +32,7 @@ h2 {
 }
 
 .main-header {
-  font-size: 0px;
+  font-size: 0;
 }
 
 .index-logo {
@@ -43,8 +43,8 @@ h2 {
 }
 
 .main-navigation ul {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -85,7 +85,7 @@ h2 {
 
 .tagline {
   outline: 1px solid black;
-  margin: 0px;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
   padding-top: 52px;
@@ -106,7 +106,7 @@ h2 {
 
 .tagline p {
   outline: 1px solid black;
-  margin: 0px;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -308,7 +308,7 @@ h2 {
   width: 25px;
   height: 25px;
   right: 0;
-  top: 0px;
+  top: 0;
 }
 
 .input-date {
@@ -465,6 +465,8 @@ h2 {
 .results-amount {
   outline: 1px solid black;
   float: left;
+  min-width: 120px;
+  max-width: 160px;
   font-size: 21px;
   font-weight: bold;
   margin-top: 3px;
@@ -473,6 +475,8 @@ h2 {
 
 .sorting-navigation {
   float: left;
+  min-width: 360px;
+  max-width: 800px;
   outline: 1px solid black;
 }
 

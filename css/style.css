@@ -78,7 +78,7 @@ h2 {
 .promo {
   outline: 1px solid black;
   background-color: blue;
-  height: 512px;
+  height: 436px;
   padding-top: 76px;
   text-align: center;
 }
@@ -88,7 +88,7 @@ h2 {
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 139px;
+  padding-top: 52px;
   padding-bottom:50px;
 }
 
@@ -127,11 +127,10 @@ h2 {
 
 .reason-text h3 {
   outline: 1px solid black;
-  margin: 0px;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
   max-width: 150px;
-  padding: 0px;
   padding-top: 54px;
   padding-bottom: 23px;
 }
@@ -155,19 +154,19 @@ h2 {
   min-height: 140px;
   text-align: center;
   padding-top: 161px;
-  padding-bottom: 83px;
+  padding-bottom: 29px;
 
 }
 
 .features-item h3 {
   outline: 1px solid black;
-  margin: 0px;
+  margin: 0;
 }
 
 .features-item p {
   outline: 1px solid black;
   width: 290px;
-  margin: 0px;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
   margin-top: 23px;
@@ -202,7 +201,7 @@ h2 {
 .advantages-item h3 {
   outline: 1px solid black;
   max-width: 145px;
-  margin: 0px;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 23px;
@@ -211,7 +210,7 @@ h2 {
 
 .advantages-item p {
   outline: 1px solid black;
-  margin: 0px;
+  margin: 0;
   max-width: 280px;
   margin-left: auto;
   margin-right: auto;
@@ -229,7 +228,7 @@ h2 {
 .search-text h2 {
   outline: 1px solid black;
   width: 500px;
-  margin: 0px;
+  margin: 0;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -241,7 +240,7 @@ h2 {
 .search-text p {
   outline: 1px solid black;
   width: 500px;
-  margin: 0px;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -255,7 +254,7 @@ h2 {
   width: 568px;
   left: 50%;
   margin-left: -284px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .search-btn {
@@ -372,7 +371,7 @@ h2 {
   text-align: center;
   padding-top: 36px;
   padding-bottom: 36px;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .social-btn {
@@ -381,7 +380,8 @@ h2 {
   vertical-align: middle;
   width: 46px;
   height: 48px;
-  margin-left: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
   background-color: blue;
 }
 
@@ -392,7 +392,7 @@ h2 {
   padding-bottom: 40px;
   width: 400px;
   text-align: center;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .footer-copyright a {
@@ -427,7 +427,7 @@ h2 {
 }
 
 .filter-block h3 {
- margin: 0
+ margin: 0;
 }
 
 .filter-block label {
@@ -442,7 +442,7 @@ h2 {
 }
 
 .filter-name {
-  margin: 0px;
+  margin: 0;
 }
 
 .price {
@@ -485,10 +485,10 @@ h2 {
 .sort-list {
   outline: 1px solid black;
   display: inline-block;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style: none;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .sort-list li {
@@ -552,13 +552,13 @@ h2 {
   margin-left: 30px;
   padding-top: 25px;
   padding-bottom: 30px;
-  font-size: 0px;
+  font-size: 0;
 }
 
 .hotel-info h2 {
   outline: 1px solid black;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   line-height: 26px;
   font-size: 21px;
   text-transform: uppercase;
@@ -595,7 +595,7 @@ h2 {
   text-align: center;
   width: 142px;
   margin-left: 6px;
-  padding: 3px 0px;
+  padding: 3px 0;
   text-decoration: none;
   color: white;
   background-color: #766357;
@@ -624,8 +624,8 @@ h2 {
 .rating-star {
   outline: 1px solid black;
   text-align: right;
-  line-height: 0px;
-  font-size: 0px;
+  line-height: 0;
+  font-size: 0;
 }
 
 .star {
@@ -638,8 +638,8 @@ h2 {
 }
 
 .rating-results {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   text-align: right;
   padding-top: 47px;
   padding-bottom: 30px;

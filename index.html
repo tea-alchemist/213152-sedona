@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Sedona Sity</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,latin-ext" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,latin-ext" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -32,21 +32,21 @@
         <section class="reason reason-1 clearfix">
           <div class="reason-text">
             <h3>Настоящий городок</h3>
-            <span>№1</span>
+            <span class="number">№1</span>
             <p>Седона-не атракцион для туристов, там течет своя жизнь</p>
           </div>
           <img class="reason-image" src="img/sedona_photo_1.jpg" alt="Sedona photo">
         </section>
         <section class="features clearfix">
-          <div class="features-item">
+          <div class="features-item house">
             <h3>Жилье</h3>
             <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
           </div>
-          <div class="features-item">
+          <div class="features-item food">
             <h3>Еда</h3>
             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </div>
-          <div class="features-item">
+          <div class="features-item souvenirs">
             <h3>Сувениры</h3>
             <p>Не только китайского, но и местного производства!</p>
           </div>
@@ -54,25 +54,25 @@
         <section class="reason reason-2 clearfix">
           <img class="reason-image" src="img/sedona_photo_2.jpg" alt="Sedona photo">
           <div class="reason-text">
-            <h3>Там есть мост дьявола</h3>
-            <span>№2</span>
+            <h3>Там есть<br>мост дьявола</h3>
+            <span class="number">№2</span>
             <p>Да, понему можно пройти! Если конечно вы осмелитесь</p>
           </div>
         </section>
         <section class="advantages clearfix">
           <div class="advantages-item">
             <h3>Небольшая площадь</h3>
-            <span>№3</span>
+            <span class="number black">№3</span>
             <p>Все достопримечательности находятся очень близко</p>
           </div>
           <div class="advantages-item">
             <h3>Красивая дорога</h3>
-            <span>№4</span>
+            <span class="number black">№4</span>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
           <div class="advantages-item">
             <h3>Мало туристов</h3>
-            <span>№5</span>
+            <span class="number black">№5</span>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
           </div>
         </section>
@@ -87,25 +87,33 @@
               <form class="search-hotel-form" action="echo.htmlacademy.ru" method="post">
                 <div class="date">
                   <label class="check-date clearfix">
-                    <span class="label-text">Дата заезда:</span><input class="input-date" type="date" name="check-in">
+                    <span class="label-text">Дата заезда:</span><input class="input-date" type="date" name="check-in" value="24 Апреля 2016">
                   </label>
                   <button class="calendar" type="button" name="calendar"></button>
                 </div>
                 <div class="date">
                   <label class="check-date clearfix">
-                    <span class="label-text">Дата выезда:</span><input class="input-date" type="date" name="departure">
+                    <span class="label-text">Дата выезда:</span><input class="input-date" type="date" name="departure" value="4 июля 2016">
                   </label>
                   <button class="calendar" type="button" name="calendar"></button>
                 </div>
                 <div class="date clearfix">
-                  <label class="adults">
-                    <span class="label-text">Взрослые:</span>
-                    <input class="min-max-people" type="number" name="num" min="1" max="10" value="1">
-                  </label>
-                  <label class="children">
-                    <span class="label-text">Дети:</span>
-                    <input class="min-max-people" type="number" name="num" min="0" max="10" value="0">
-                  </label>
+                  <div class="abults">
+                    <label for="people-text" class="adults-label">Взрослые:</label>
+                    <div class="abults-enter">
+                      <button class="minus" type="button"></button>
+                      <input class="min-max-people" id="people-text" type="text" name="num" value="1">
+                      <button class="pluse" type="button"></button>
+                    </div>
+                  </div>
+                  <div class="children">
+                    <label class="children-label" for="children-text">Дети:</label>
+                    <div class="children-enter">
+                      <button class="minus" type="button"></button>
+                      <input class="min-max-people" id="children-text" type="text" name="num" value="0">
+                      <button class="pluse" type="button"></button>
+                    </div>
+                  </div>
                 </div>
                 <button class="find" type="submit">Найти</button>
               </form>
@@ -124,7 +132,7 @@
           </div>
           <div class="footer-copyright">
             <span class="by">website by</span>
-            <a class="btn" href="https://htmlacademy.ru"><img src="img/logo_copyright.png"  alt="htmlacademy.ru"></a>
+            <a class="btn" href="https://htmlacademy.ru"></a>
           </div>
         </footer>
       </main>

@@ -84,33 +84,35 @@
           <div class="search-hotel">
             <button class="search-btn" type="button">Поиск гостиницы в Седоне</button>
             <div class="modal-content">
-              <form class="search-hotel-form" action="echo.htmlacademy.ru" method="post">
-                <div class="date">
-                  <label class="check-date clearfix">
-                    <span class="label-text">Дата заезда:</span><input class="input-date" type="date" name="check-in" value="24 Апреля 2016">
-                  </label>
-                  <button class="calendar" type="button" name="calendar"></button>
+              <form class="search-form" action="echo.htmlacademy.ru" method="post">
+                <div class="field-wrapper clearfix">
+                  <label for="date-1" class="people-text">дата заезда:</label>
+                  <div class="date-input-wrapper">
+                    <input id="date-1" class="date-input" type="date" name="check-in" value="24 апреля 2016">
+                    <button class="calendar" type="button" name="calendar"></button>
+                  </div>
                 </div>
-                <div class="date">
-                  <label class="check-date clearfix">
-                    <span class="label-text">Дата выезда:</span><input class="input-date" type="date" name="departure" value="4 июля 2016">
-                  </label>
-                  <button class="calendar" type="button" name="calendar"></button>
+                <div class="field-wrapper clearfix">
+                  <label class="people-text">Дата выезда:</label>
+                  <div class="date-input-wrapper">
+                    <input id="date-2" class="date-input" type="date" name="departure" value="4 июля 2016">
+                    <button class="calendar" type="button" name="calendar"></button>
+                  </div>
                 </div>
-                <div class="date clearfix">
-                  <div class="abults">
-                    <label for="people-text" class="adults-label">Взрослые:</label>
-                    <div class="abults-enter">
+                <div class="field-wrapper clearfix">
+                  <div class="visitors-field clearfix">
+                    <label for="children-1" class="people-text">Взрослые:</label>
+                    <div class="visitors-input-wrapper">
+                      <input class="visitors" id="children-1" type="text" name="num" value="1">
                       <button class="minus" type="button"></button>
-                      <input class="min-max-people" id="people-text" type="text" name="num" value="1">
                       <button class="pluse" type="button"></button>
                     </div>
                   </div>
-                  <div class="children">
-                    <label class="children-label" for="children-text">Дети:</label>
-                    <div class="children-enter">
+                  <div class="visitors-field clearfix">
+                    <label for="children-2" class="people-text children-label">Дети:</label>
+                    <div class="visitors-input-wrapper">
+                      <input class="visitors" id="children-2" type="text" name="num" value="0">
                       <button class="minus" type="button"></button>
-                      <input class="min-max-people" id="children-text" type="text" name="num" value="0">
                       <button class="pluse" type="button"></button>
                     </div>
                   </div>

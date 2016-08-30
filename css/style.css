@@ -91,6 +91,18 @@ h2 {
   text-align: right;
 }
 
+li.active a {
+  color: #766357;
+}
+
+li.active a:hover {
+  color: #604e43;
+}
+
+li.active a:active {
+  color: #dbd8d5;
+}
+
 .promo {
   height: 436px;
   padding-top: 76px;
@@ -132,11 +144,6 @@ h2 {
 .reason {
   position: relative;
   overflow: hidden;
-
-}
-
-.reason-1 .reason-image {
-  float: right;
 }
 
 .reason-image {
@@ -274,9 +281,7 @@ h2 {
 }
 
 .reason-2 .reason-image {
-  float: left;
-  height: 100%;
-  top: 0;
+  right: auto;
   left: 0;
 }
 
@@ -349,13 +354,16 @@ h2 {
 }
 
 .search-btn {
+  display: inline-block;
   width: 100%;
-  min-height: 85px;
+  box-sizing: border-box;
+  padding: 30px;
   background-color: #766357;
   color: #ffffff;
   font-size: 21px;
   font-weight: bold;
-  border: none;
+  line-height: 26px;
+  text-align: center;
 }
 
 .modal-content {
@@ -396,7 +404,6 @@ h2 {
 }
 
 .children-label {
- box-sizing: border-box;
  text-align: right;
  padding-right: 27px;
 
@@ -408,9 +415,10 @@ h2 {
   width: 346px;
 }
 
-input {
+.search-item {
   margin: 0;
-  padding: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
@@ -419,13 +427,22 @@ input {
   background-color: #f2f2f2;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
-input:hover {
+.date-input-wrapper .date-visit {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+.date-visit:hover {
   background-color: #ebebeb;
 }
 
-input:focus {
+.date-visit:focus {
   background-color: #fff;
   outline: 2px solid #e5e5e5;
 }
@@ -439,16 +456,18 @@ input:focus {
   position: relative;
   width: 116px;
   float: right;
-
 }
 
 .visitors {
   text-align: center;
+  padding-left: 38px;
+  padding-right: 38px;
 }
 
 .calendar {
   margin: 0;
   position: absolute;
+  background-color: transparent;
   width: 21px;
   height: 22px;
   right: 10px;
@@ -583,11 +602,15 @@ input:focus {
   background-color: #81b3d2;
   color: white;
   width: 100%;
-  min-height: 58px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: 24px;
   font-size: 21px;
+  line-height: 26px;
   font-weight: bold;
   border: none;
+  text-transform: uppercase;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .find:hover {
@@ -994,9 +1017,25 @@ input[type="checkbox"]:disabled + label::after {
 
 .sort-list a {
   text-decoration: none;
-  color: #81b3d2;
+  color: #cacaca;
   font-size: 12px;
+  border-bottom: 1px dotted #81b3d2;
 }
+
+li.active-sort a {
+  color: #81b3d2;
+  border: none;
+}
+
+li.active-sort a:hover {
+  border: none;
+}
+
+li.active-sort a:hover {
+  color: #81b3d2;
+}
+
+
 
 .sort-list a:hover {
   color: #81b3d2;
@@ -1015,7 +1054,7 @@ input[type="checkbox"]:disabled + label::after {
   margin-top: 15px;
 }
 
-.min {
+.max {
   width: 11px;
   height: 10px;
   display: inline-block;
@@ -1026,11 +1065,15 @@ input[type="checkbox"]:disabled + label::after {
   border-color: transparent transparent #ccc transparent;
 }
 
-.min:active {
+.max:hover {
+  border-color: transparent transparent #000 transparent;
+}
+
+.max:active {
   border-color: transparent transparent #81b3d2 transparent;
 }
 
-.max {
+.min {
   display: inline-block;
   margin-left: 9px;
   border-style: solid;
@@ -1038,7 +1081,19 @@ input[type="checkbox"]:disabled + label::after {
   border-color: #ccc transparent transparent transparent;
 }
 
-.max:active {
+.min:hover {
+  border-color: transparent transparent #000 transparent;
+}
+
+.min:active {
+  border-color: #81b3d2 transparent transparent transparent;
+}
+
+.min.active {
+  border-color: #81b3d2 transparent transparent transparent;
+}
+
+.min.active:hover {
   border-color: #81b3d2 transparent transparent transparent;
 }
 
@@ -1172,9 +1227,12 @@ input[type="checkbox"]:disabled + label::after {
 }
 
 .star {
+  display: inline-block;
   margin-left: 7px;
   height: 17px;
   width: 17px;
+  background-image: url("../img/sprite.png");
+  background-position: -701px -10px;
 }
 
 .rating-results {

@@ -10,21 +10,21 @@
     <div class=wrapper>
       <header class="main-header">
         <div class="index-logo">
-	        <a href="#"><img src="img/index_logo.png" alt="City Sedona"></a>
+	        <a href="index.html"><img src="img/index_logo.png" alt="City Sedona"></a>
 	      </div>
     	  <nav class="main-navigation">
     	    <ul>
             <li><a href="#">Информация</a></li>
     		    <li><a href="#">Фото и видео</a></li>
     		    <li><a href="#">Карта штата</a></li>
-    		    <li><a href="#">Гостиницы</a></li>
+    		    <li class="active"><a href="#">Гостиницы</a></li>
           </ul>
   	    </nav>
   	  </header>
   	  <div class="filters clearfix">
   	    <section class="filter-block">
   		    <h3 class="filter-name">Инфраструктура:</h3>
-          <input type="checkbox" id="chb-1">
+          <input type="checkbox" id="chb-1" checked>
           <label for="chb-1">Бассейн</label>
           <input type="checkbox" id="chb-2">
           <label for="chb-2">Парковка</label>
@@ -33,11 +33,11 @@
   		  </section>
         <section class="filter-block">
     		  <h3 class="filter-name">Тип Жилья:</h3>
-    		  <input type="checkbox" id="chb-4">
+    		  <input type="checkbox" id="chb-4" checked>
           <label for="chb-4">Гостиница</label>
-          <input type="checkbox" id="chb-5">
+          <input type="checkbox" id="chb-5" checked>
           <label for="chb-5">Мотель</label>
-          <input type="checkbox" id="chb-6">
+          <input type="checkbox" id="chb-6" checked>
           <label for="chb-6">Апартаменты</label>
     		</section>
     		<section class="filter-cost-in-day">
@@ -64,14 +64,14 @@
           <div class="sorting-navigation">
             <h3>Сортировка:</h3>
             <ul class="sort-list">
-              <li><a href="#">По цене</a></li>
+              <li class="active-sort"><a href="#">По цене</a></li>
               <li><a href="#">По типу</a></li>
               <li><a href="#">По рейтингу</a></li>
             </ul>
           </div>
           <div class="min-max">
-            <a class="min" href="#"></a>
             <a class="max" href="#"></a>
+            <a class="min active"  href="#"></a>
           </div>
         </div>
         <div class="results">

@@ -17,7 +17,7 @@
             <li><a href="#">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
-            <li><a href="#">Гостиницы</a></li>
+            <li><a href="hotels.html">Гостиницы</a></li>
           </ul>
         </nav>
       </header>
@@ -82,20 +82,20 @@
             <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостинец в Седоне</p>
           </div>
           <div class="search-hotel">
-            <button class="search-btn" type="button">Поиск гостиницы в Седоне</button>
+            <a class="search-btn" type="button">Поиск гостиницы в Седоне</a>
             <div class="modal-content">
               <form class="search-form" action="echo.htmlacademy.ru" method="post">
                 <div class="field-wrapper clearfix">
                   <label for="date-1" class="people-text">дата заезда:</label>
                   <div class="date-input-wrapper">
-                    <input id="date-1" class="date-input" type="date" name="check-in" value="24 апреля 2016">
+                    <input id="date-1" class="date-visit search-item" type="text" name="check-in" value="24 апреля 2016">
                     <button class="calendar" type="button" name="calendar"></button>
                   </div>
                 </div>
                 <div class="field-wrapper clearfix">
                   <label class="people-text">Дата выезда:</label>
                   <div class="date-input-wrapper">
-                    <input id="date-2" class="date-input" type="date" name="departure" value="4 июля 2016">
+                    <input id="date-2" class="date-visit search-item" type="text" name="departure" value="4 июля 2016">
                     <button class="calendar" type="button" name="calendar"></button>
                   </div>
                 </div>
@@ -103,7 +103,7 @@
                   <div class="visitors-field clearfix">
                     <label for="children-1" class="people-text">Взрослые:</label>
                     <div class="visitors-input-wrapper">
-                      <input class="visitors" id="children-1" type="text" name="num" value="1">
+                      <input class="search-item visitors" id="children-1" type="text" name="num" value="1">
                       <button class="minus" type="button"></button>
                       <button class="pluse" type="button"></button>
                     </div>
@@ -111,7 +111,7 @@
                   <div class="visitors-field clearfix">
                     <label for="children-2" class="people-text children-label">Дети:</label>
                     <div class="visitors-input-wrapper">
-                      <input class="visitors" id="children-2" type="text" name="num" value="0">
+                      <input class="search-item visitors" id="children-2" type="text" name="num" value="0">
                       <button class="minus" type="button"></button>
                       <button class="pluse" type="button"></button>
                     </div>

@@ -139,5 +139,12 @@
         </footer>
       </main>
     </div>
+    <script src="js/scripts.js">
+    var button = document.querySelector(".search-btn");
+    var popup = document.querySelector(".modal-content");
+
+    button.addEventListener("click", function(event) {event.preventDefault(); popup.classList.toggle("modal-content-show");
+    });
+    </script>
   </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Hotels</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,latin-ext" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-min.css" rel="stylesheet">
   </head>
   <body>
     <div class=wrapper>
@@ -21,41 +21,43 @@
           </ul>
   	    </nav>
   	  </header>
-  	  <div class="filters clearfix">
-  	    <section class="filter-block">
-  		    <h3 class="filter-name">Инфраструктура:</h3>
-          <input type="checkbox" id="chb-1" checked>
-          <label for="chb-1">Бассейн</label>
-          <input type="checkbox" id="chb-2">
-          <label for="chb-2">Парковка</label>
-          <input type="checkbox" id="chb-3">
-          <label for="chb-3">Wi-Fi</label>
-  		  </section>
-        <section class="filter-block">
-    		  <h3 class="filter-name">Тип Жилья:</h3>
-    		  <input type="checkbox" id="chb-4" checked>
-          <label for="chb-4">Гостиница</label>
-          <input type="checkbox" id="chb-5" checked>
-          <label for="chb-5">Мотель</label>
-          <input type="checkbox" id="chb-6" checked>
-          <label for="chb-6">Апартаменты</label>
-    		</section>
-    		<section class="filter-cost-in-day">
-          <h3 class="filter-name filter-name-range">Стоимость в сутки(р):</h3>
-          <div class="price">
-    		    <label>от<input class="min-price" type="text" value="0"></label>
-    		    <label>до<input class="max-price" type="text" value="3000"></label>
-          </div>
-          <div class="range-controls">
-            <div class="scale">
-              <div class="bar"></div>
+      <form action="echo.htmlacademy.ru" method="post">
+    	  <div class="filters clearfix">
+    	    <section class="filter-block">
+    		    <h3 class="filter-name">Инфраструктура:</h3>
+            <input type="checkbox" id="chb-1" checked>
+            <label for="chb-1">Бассейн</label>
+            <input type="checkbox" id="chb-2">
+            <label for="chb-2">Парковка</label>
+            <input type="checkbox" id="chb-3">
+            <label for="chb-3">Wi-Fi</label>
+    		  </section>
+          <section class="filter-block">
+      		  <h3 class="filter-name">Тип Жилья:</h3>
+      		  <input type="checkbox" id="chb-4" checked>
+            <label for="chb-4">Гостиница</label>
+            <input type="checkbox" id="chb-5" checked>
+            <label for="chb-5">Мотель</label>
+            <input type="checkbox" id="chb-6" checked>
+            <label for="chb-6">Апартаменты</label>
+      		</section>
+      		<section class="filter-cost-in-day">
+            <h3 class="filter-name filter-name-range">Стоимость в сутки(р):</h3>
+            <div class="price">
+      		    <label>от<input class="min-price" type="text" value="0"></label>
+      		    <label>до<input class="max-price" type="text" value="3000"></label>
             </div>
-            <div class="toggle min-toggle"></div>
-            <div class="toggle max-toggle"></div>
-          </div>
-          <button class="show" type="submit">Показать</button>
-        </section>
-      </div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle min-toggle"></div>
+              <div class="toggle max-toggle"></div>
+            </div>
+            <button class="show" type="submit">Показать</button>
+          </section>
+        </div>
+      </form>
       <div class="search-results">
         <div class="sorting clearfix">
           <div class="results-amount">

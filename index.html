@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Sedona Sity</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,latin-ext" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style-min.css" rel="stylesheet">
   </head>
   <body>
     <div class=wrapper>
@@ -82,7 +83,7 @@
             <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостинец в Седоне</p>
           </div>
           <div class="search-hotel">
-            <a class="search-btn" href="#" type="button">Поиск гостиницы в Седоне</a>
+            <a class="search-btn" href="#">Поиск гостиницы в Седоне</a>
             <div class="modal-content">
               <form class="search-form" action="echo.htmlacademy.ru" method="post">
                 <div class="field-wrapper clearfix">
@@ -139,12 +140,6 @@
         </footer>
       </main>
     </div>
-    <script src="js/scripts.js">
-    var button = document.querySelector(".search-btn");
-    var popup = document.querySelector(".modal-content");
-
-    button.addEventListener("click", function(event) {event.preventDefault(); popup.classList.toggle("modal-content-show");
-    });
-    </script>
+    <script src="js/scripts-min.js"></script>
   </body>
 </html>

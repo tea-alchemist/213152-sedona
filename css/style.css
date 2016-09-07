@@ -56,6 +56,7 @@ h2 {
 
 .main-navigation li {
   display: inline-block;
+  vertical-align: top;
   font-size: 16px;
   width: 20%;
   padding-top: 15px;
@@ -151,6 +152,7 @@ li.active a:active {
   top: 0;
   right: 0;
   height: 100%;
+  background-color: #309194;
 }
 
 .reason-text {
@@ -199,6 +201,7 @@ li.active a:active {
 .number {
   position: relative;
   display: inline-block;
+  vertical-align: top;
   min-width: 50px;
 }
 
@@ -364,6 +367,7 @@ li.active a:active {
   font-weight: bold;
   line-height: 26px;
   text-align: center;
+  vertical-align: middle;
   text-decoration: none;
 }
 
@@ -460,6 +464,7 @@ li.active a:active {
   padding-top: 6px;
   padding-bottom: 6px;
   display: inline-block;
+  vertical-align: middle;
   box-sizing: border-box;
   width: 100%;
   height: 38px;
@@ -662,6 +667,12 @@ li.active a:active {
   color: #88b6d1;
 }
 
+.map {
+  height: 593px;
+  background-image: url("../img/map.jpg");
+  background-color: #3ECD2D;
+}
+
 .index-footer {
   background-color: rgba(250, 250, 250, 0.9);
   position: absolute;
@@ -813,6 +824,7 @@ li.active a:active {
   background-image: url("../img/hotels_background_photo.jpg");
   background-position: 60% 50%;
   background-size: cover;
+  background-color: #309194;
 }
 
 .filter-block {
@@ -1037,6 +1049,7 @@ input[type="checkbox"]:disabled + label::after {
 
 .sorting-navigation h3 {
   display: inline-block;
+  vertical-align: middle;
   margin: 0;
   margin-left: 40px;
   font-size: 12px;
@@ -1045,6 +1058,7 @@ input[type="checkbox"]:disabled + label::after {
 
 .sort-list {
   display: inline-block;
+  vertical-align: middle;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1053,6 +1067,7 @@ input[type="checkbox"]:disabled + label::after {
 
 .sort-list li {
   display: inline-block;
+  vertical-align: middle;
   font-size: 12px;
   padding-left: 33px;
   padding-top: 5px;
@@ -1102,6 +1117,7 @@ li.active-sort a:hover {
   width: 11px;
   height: 10px;
   display: inline-block;
+  vertical-align: top;
   width: 0;
   height: 0;
   border-style: solid;
@@ -1119,6 +1135,7 @@ li.active-sort a:hover {
 
 .min {
   display: inline-block;
+  vertical-align: top;
   margin-left: 9px;
   border-style: solid;
   border-width: 10px 5.5px 0 5.5px;
@@ -1277,6 +1294,7 @@ li.active-sort a:hover {
   width: 17px;
   background-image: url("../img/sprite.png");
   background-position: -701px -10px;
+  vertical-align: middle;
 }
 
 .rating-results {
